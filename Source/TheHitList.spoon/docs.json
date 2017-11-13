@@ -1,0 +1,294 @@
+[
+  {
+    "Constant" : [
+
+    ],
+    "submodules" : [
+
+    ],
+    "Function" : [
+
+    ],
+    "Variable" : [
+      {
+        "def" : "TheHitList.tickRate",
+        "stripped_doc" : [
+          "Show The Hit List prompt every X seconds, default 300"
+        ],
+        "doc" : "Show The Hit List prompt every X seconds, default 300",
+        "desc" : "Show The Hit List prompt every X seconds, default 300",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.tickRate",
+        "type" : "Variable",
+        "returns" : [
+
+        ],
+        "name" : "tickRate",
+        "parameters" : [
+
+        ]
+      },
+      {
+        "def" : "TheHitList.duration",
+        "stripped_doc" : [
+          "The Hit List prompt will be visible for Y seconds, default 5"
+        ],
+        "doc" : "The Hit List prompt will be visible for Y seconds, default 5",
+        "desc" : "The Hit List prompt will be visible for Y seconds, default 5",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.duration",
+        "type" : "Variable",
+        "returns" : [
+
+        ],
+        "name" : "duration",
+        "parameters" : [
+
+        ]
+      }
+    ],
+    "stripped_doc" : [
+
+    ],
+    "Deprecated" : [
+
+    ],
+    "type" : "Module",
+    "desc" : "Show # of todos in The Hit List application",
+    "Constructor" : [
+
+    ],
+    "items" : [
+      {
+        "def" : "TheHitList.duration",
+        "stripped_doc" : [
+          "The Hit List prompt will be visible for Y seconds, default 5"
+        ],
+        "doc" : "The Hit List prompt will be visible for Y seconds, default 5",
+        "desc" : "The Hit List prompt will be visible for Y seconds, default 5",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.duration",
+        "type" : "Variable",
+        "returns" : [
+
+        ],
+        "name" : "duration",
+        "parameters" : [
+
+        ]
+      },
+      {
+        "def" : "TheHitList.tickRate",
+        "stripped_doc" : [
+          "Show The Hit List prompt every X seconds, default 300"
+        ],
+        "doc" : "Show The Hit List prompt every X seconds, default 300",
+        "desc" : "Show The Hit List prompt every X seconds, default 300",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.tickRate",
+        "type" : "Variable",
+        "returns" : [
+
+        ],
+        "name" : "tickRate",
+        "parameters" : [
+
+        ]
+      },
+      {
+        "def" : "TheHitList.getSummary()",
+        "stripped_doc" : [
+          "summary of current THL status, either \"X tasks \/ Y done\" or \"Working for ABC for X minutes\"",
+          ""
+        ],
+        "doc" : "summary of current THL status, either \"X tasks \/ Y done\" or \"Working for ABC for X minutes\"\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "summary of current THL status, either \"X tasks \/ Y done\" or \"Working for ABC for X minutes\"",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.getSummary()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "getSummary",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "def" : "TheHitList.openApp()",
+        "stripped_doc" : [
+          "Open The Hit List application",
+          ""
+        ],
+        "doc" : "Open The Hit List application\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "Open The Hit List application",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.openApp()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "openApp",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "def" : "TheHitList:start()",
+        "stripped_doc" : [
+          "The Hit List prompt will start to be visible every tickRate sec or app change",
+          ""
+        ],
+        "doc" : "The Hit List prompt will start to be visible every tickRate sec or app change\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "The Hit List prompt will start to be visible every tickRate sec or app change",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList:start()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "start",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "def" : "TheHitList:stop()",
+        "stripped_doc" : [
+          "Stop The Hit List prompt automatically show up",
+          ""
+        ],
+        "doc" : "Stop The Hit List prompt automatically show up\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "Stop The Hit List prompt automatically show up",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList:stop()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "stop",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      }
+    ],
+    "Method" : [
+      {
+        "def" : "TheHitList.openApp()",
+        "stripped_doc" : [
+          "Open The Hit List application",
+          ""
+        ],
+        "doc" : "Open The Hit List application\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "Open The Hit List application",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.openApp()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "openApp",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "def" : "TheHitList.getSummary()",
+        "stripped_doc" : [
+          "summary of current THL status, either \"X tasks \/ Y done\" or \"Working for ABC for X minutes\"",
+          ""
+        ],
+        "doc" : "summary of current THL status, either \"X tasks \/ Y done\" or \"Working for ABC for X minutes\"\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "summary of current THL status, either \"X tasks \/ Y done\" or \"Working for ABC for X minutes\"",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList.getSummary()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "getSummary",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "def" : "TheHitList:start()",
+        "stripped_doc" : [
+          "The Hit List prompt will start to be visible every tickRate sec or app change",
+          ""
+        ],
+        "doc" : "The Hit List prompt will start to be visible every tickRate sec or app change\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "The Hit List prompt will start to be visible every tickRate sec or app change",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList:start()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "start",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      },
+      {
+        "def" : "TheHitList:stop()",
+        "stripped_doc" : [
+          "Stop The Hit List prompt automatically show up",
+          ""
+        ],
+        "doc" : "Stop The Hit List prompt automatically show up\n\nParameters:\n * None\n\nReturns:\n * None",
+        "desc" : "Stop The Hit List prompt automatically show up",
+        "notes" : [
+
+        ],
+        "signature" : "TheHitList:stop()",
+        "type" : "Method",
+        "returns" : [
+          " * None"
+        ],
+        "name" : "stop",
+        "parameters" : [
+          " * None",
+          ""
+        ]
+      }
+    ],
+    "Command" : [
+
+    ],
+    "Field" : [
+
+    ],
+    "doc" : "Show # of todos in The Hit List application",
+    "name" : "TheHitList"
+  }
+]
