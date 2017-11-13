@@ -47,8 +47,8 @@ end
 ---  * None
 THL.getSummary = function()
     local a,b,c = hs.osascript.applescript([[tell application "The Hit List"
-        set t to number of tasks in today list
-        set c to count of tasks of group "Completed" of folders group
+        set t to count of (every task in today list whose completed is false)
+        set c to count of (every task in today list whose completed is true)
         set k to timing task
         if k is missing value then
             return {t, c}
